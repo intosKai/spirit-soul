@@ -18,6 +18,9 @@ public class MainMenu implements Screen {
     @Override
     public void show() {
 
+        //УДАЛИТЬ ПОСЛЕ СОЗДАНИЯ МЕНЮ КЕК ЛОЛ ЧЕБУРЕК
+        game.setScreen(new GameScreen(game));
+        dispose();
     }
 
     @Override

@@ -22,7 +22,6 @@ public class SpiritSoulGame extends Game {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture(Gdx.files.internal("badlogic.jpg"));
 		setScreen(new MainMenu(this));
 	}
 
