@@ -16,7 +16,7 @@ import ru.maxbat.spiritsoul.screen.MainMenu;
  */
 
 public class SpiritSoulGame extends Game {
-	SpriteBatch batch;
+	private SpriteBatch batch;
 	Texture img;
 	
 	@Override
@@ -35,5 +35,9 @@ public class SpiritSoulGame extends Game {
 	public void dispose() {
 		super.dispose();
 		batch.dispose();
+	}
+
+	public SpriteBatch getBatch() {
+		return batch;
 	}
 }

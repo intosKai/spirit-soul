@@ -3,21 +3,14 @@ package ru.maxbat.spiritsoul.screen;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Screen;
 
-/**
- * <p>Экран меню</p>
- * @since 0.1
- * @version 0.1
- */
-public class MainMenu implements Screen {
+public class GameScreen implements Screen {
     private final Game game;
 
-    public MainMenu(Game game) {
+    public GameScreen(Game game) {
         this.game = game;
     }
-
     @Override
     public void show() {
-
     }
 
     @Override
