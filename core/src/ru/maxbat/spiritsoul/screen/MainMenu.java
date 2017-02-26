@@ -2,6 +2,7 @@ package ru.maxbat.spiritsoul.screen;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Screen;
+import ru.maxbat.spiritsoul.SpiritSoulGame;
 
 /**
  * <p>Экран меню</p>
@@ -9,9 +10,9 @@ import com.badlogic.gdx.Screen;
  * @version 0.1
  */
 public class MainMenu implements Screen {
-    private final Game game;
+    private final SpiritSoulGame game;
 
-    public MainMenu(Game game) {
+    public MainMenu(SpiritSoulGame game) {
         this.game = game;
     }
 
