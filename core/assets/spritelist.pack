@@ -1,0 +1,96 @@
+
+spritelist.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Walk
+  rotate: false
+  xy: 3, 271
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 1
+Walk
+  rotate: false
+  xy: 3, 137
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 2
+Walk
+  rotate: false
+  xy: 137, 271
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+Walk
+  rotate: false
+  xy: 3, 3
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 4
+Walk
+  rotate: false
+  xy: 137, 137
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 5
+Walk
+  rotate: false
+  xy: 271, 271
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 6
+Stand
+  rotate: false
+  xy: 137, 3
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 1
+Stand
+  rotate: false
+  xy: 271, 137
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 2
+Stand
+  rotate: false
+  xy: 405, 271
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 3
+Stand
+  rotate: false
+  xy: 405, 271
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 7
+Stand
+  rotate: false
+  xy: 207, 3
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 4
+Stand
+  rotate: false
+  xy: 207, 3
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 6
+Stand
+  rotate: false
+  xy: 341, 137
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: 5
